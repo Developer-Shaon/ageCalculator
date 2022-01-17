@@ -13,6 +13,6 @@ let date = new Date();
 
  age = date.getFullYear() - years;
 
-return `<p class="alert alert-success text-center"> Hello ${name}, your present age is ${age} </p> `;
+return `<p class="alert alert-success text-center"> Hi ${name}, you are ${age} years old. </p> `;
 
 };
